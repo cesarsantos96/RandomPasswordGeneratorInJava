@@ -5,9 +5,12 @@ public class PasswordGenerator {
     private static final SecureRandom random = new SecureRandom();
 
     private int lengthPassword;
+    private  String utility;
 
     public PasswordGenerator(int lengthPassword) {
         this.lengthPassword = lengthPassword;
+        this.utility = utility;
+
     }
 
     public String generatePassword() {
@@ -17,5 +20,8 @@ public class PasswordGenerator {
             senha.append(CHARACTERS.charAt(indice));
         }
         return senha.toString();
+    }
+    public String getUtility(){
+        return utility;
     }
 }
