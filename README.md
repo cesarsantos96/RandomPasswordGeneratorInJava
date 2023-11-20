@@ -6,7 +6,7 @@ The user can specify the desired password length when instantiating the Password
 ### Functionalities
  - Generates random passwords based on alphanumeric characters and special symbols.
  - Allows customization of password length.
- - addition of function that saves password in a txt file
+ - addition of function that saves password in a txt file and specify where it will be used.
 
 ### How to use 
  - Clone the repository to your development environment.
